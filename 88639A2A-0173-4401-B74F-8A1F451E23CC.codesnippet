@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>dkAddFooter</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>MJRefreshAutoNormalFooter *mj_footer = [MJRefreshAutoNormalFooter footerWithRefreshingBlock:^{
+            self.pageNo++;
+            [self requestLogisticseDetailGoodsData];
+        }];
+        mj_footer.triggerAutomaticallyRefreshPercent = 0.1;
+        mj_footer.autoTriggerTimes = -1;
+        mj_footer.stateLabel.font = FontOfSize(12);
+        mj_footer.stateLabel.textColor = color_black_low;
+        [mj_footer setTitle:@"正在努力刷新..." forState:MJRefreshStateRefreshing];
+        _logisticsCollectionView.mj_footer = mj_footer;</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>88639A2A-0173-4401-B74F-8A1F451E23CC</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>AddFooter</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

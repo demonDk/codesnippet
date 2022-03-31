@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>dkcreateTableviewInit</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UITableView *)&lt;#lisTableView#&gt;{
+    if(!&lt;#UITableView#&gt;){
+        &lt;#UITableView#&gt; = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain];
+        &lt;#UITableView#&gt;.delegate = self;
+        &lt;#UITableView#&gt;.dataSource = self;
+        &lt;#UITableView#&gt;.showsVerticalScrollIndicator = NO;
+        &lt;#UITableView#&gt;.backgroundColor = [UIColor colorWithHexString:&lt;#@"#F5F5F5"#&gt;];
+        &lt;#UITableView#&gt;.tableFooterView = [UIView new];
+        &lt;#UITableView#&gt;.rowHeight = UITableViewAutomaticDimension;
+        &lt;#UITableView#&gt;.estimatedRowHeight = 44;
+        &lt;#UITableView#&gt;.separatorStyle = UITableViewCellSeparatorStyleNone;
+    }
+    return &lt;#UITableView#&gt;;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>6F11ED9E-F3A7-4B62-9B7A-3FF16EFBB9BA</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>TableView Lazzy Init</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

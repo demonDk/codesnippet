@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string></string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>self.contentView.layer.cornerRadius = 8.0f;
+        self.contentView.layer.masksToBounds = YES;
+        
+        self.backgroundColor = COLOR_BG;
+        self.contentView.backgroundColor = [UIColor whiteColor];
+        [self.contentView mas_updateConstraints:^(MASConstraintMaker *make) {
+            make.left.equalTo(self).offset(10);
+            make.right.equalTo(self).offset(-10);
+            make.top.bottom.equalTo(self);
+        }];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>E3873E0B-EBF2-477D-A929-0AA7FE43977C</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>带边距的cell</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
